@@ -46,7 +46,7 @@ class Kerucut
     }
 }
 
-$lingkaran = new Lingkaran(4);
+$lingkaran = new Lingkaran();
 $lingkaran->jari_jari = 4;
 echo "keliling lingkaran : ". $lingkaran->keliling(). " cm\n";
 echo "luas lingkaran : ". $lingkaran->luas(). " cm^2\n";
